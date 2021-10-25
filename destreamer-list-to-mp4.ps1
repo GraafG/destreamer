@@ -1,0 +1,1 @@
+./destreamer.ps1 -f list.txt --format mp4
