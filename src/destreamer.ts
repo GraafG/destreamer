@@ -51,7 +51,7 @@ async function DoInteractiveLogin(url: string, username?: string): Promise<Sessi
     const browser: puppeteer.Browser = await puppeteer.launch({
         executablePath: 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
         headless: false,
-        userDataDir: '%LocalAppData%\\Microsoft\\Edge\\User Data',
+        userDataDir: 'EdgeProfile',
         args: [
             '--disable-dev-shm-usage',
             '--fast-start',

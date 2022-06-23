@@ -8,4 +8,5 @@ node_modules
 videos
 release
 build
+EdgeProfile
 yarn.lock
